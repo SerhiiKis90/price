@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    align-items: space-between;
+    background-color: #AED6F1  ;
+}
+
+ul {
+    list-style-type: none;
+}
+ul li {
+    display:inline;
+}
+
+img {
+    background-color:transparent;
+    width:200px;
+    
+}

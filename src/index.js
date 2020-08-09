@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Item from './item/item'
+import Header from './header/header'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
+     <Header />
     <App />
+    <Item />
   </React.StrictMode>,
   document.getElementById('root')
 );
